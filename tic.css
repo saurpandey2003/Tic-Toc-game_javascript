@@ -7,17 +7,21 @@ nav{
     background-color: black;
     height: 50px;
     color: white;
+    width: 100vw;
 }
 nav ul li{
     padding: 14px ;
     list-style: none;
 }
 
+
 .gamecontainer{
     display: flex;
     margin: auto;
     /* align-items: center; */
     justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 /* #button{
     padding: 3px 15px 3px 15px;
@@ -49,6 +53,9 @@ nav ul li{
     text-align: center;
     font-size: 1.5vw;
 }
+.gameinfo h1{
+    width: 50vw;
+}
 .gameturn{
     padding-top: 2rem;
 }
@@ -75,6 +82,9 @@ nav ul li{
     cursor: pointer;
     padding: 10px 10px;
 }
+.info p{
+    font-size: 15px;
+}
 #button{
 margin-top: 20px;
 }
@@ -90,3 +100,4 @@ margin-top: 20px;
 .bt-0{
     border-top: 0;
 }
+
