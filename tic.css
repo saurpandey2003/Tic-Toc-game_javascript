@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0;
+
+}
+nav{
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+nav ul li{
+    padding: 14px ;
+    list-style: none;
+}
+
+.gamecontainer{
+    display: flex;
+    margin: auto;
+    /* align-items: center; */
+    justify-content: center;
+}
+/* #button{
+    padding: 3px 15px 3px 15px;
+    cursor: pointer;
+} */
+.container{
+    display: grid;
+    /* width: 50%; */
+    grid-template-areas:"I1 I2 I3"
+    "I4 I5 I6 "
+    "I7 I8 I9" ;
+
+    margin-top: 20px;
+}
+
+.boxes{
+    padding: 50px;
+    cursor: pointer;
+    transition: 0.4 ease-out;
+    border: 2px solid rgb(246, 137, 137);
+}
+.boxes:hover{
+    background-color: rgb(208, 178, 236);
+    transition: 0.3s ease-out;
+}
+.gameinfo{
+    padding-top: 15px;
+    padding-left: 60px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.gameturn{
+    padding-top: 2rem;
+}
+.gameturn button{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 4px 4px;
+}
+#wonimg {
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    width: 40px;
+    left: 20px;
+    opacity: 0;
+}
+.gameturn button{
+    position: relative;
+    left: 30px;
+    color: white;
+    background: burlywood;
+    border: whitesmoke 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+#button{
+margin-top: 20px;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bt-0{
+    border-top: 0;
+}
